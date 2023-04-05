@@ -4,9 +4,9 @@
   "description": "backend du projet",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
-  "author": "Kevin Ozkaraca",
+  "author": "Kevin Özkaraca",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
