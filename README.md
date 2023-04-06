@@ -26,6 +26,7 @@
   - "Express" est un framework pour Node.js qui facilite la création d'applications web en fournissant des fonctionnalités pour la gestion des requêtes HTTP, la définition des routes, la gestion des sessions, la gestion des cookies, etc.
 - Installer dotenv `npm install dotenv'
   - Dotenv est un module qui permet de charger des variables d'environnement depuis un fichier .env.
+-  Creer un dossier config et un fichier .env pour les informations sensibles.
 - Creer un fichier server.js (ou index.js) qui sera la base de notre serveur.
 
 
