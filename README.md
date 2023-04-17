@@ -24,6 +24,7 @@
   - "Express" est un framework pour Node.js qui facilite la création d'applications web en fournissant des fonctionnalités pour la gestion des requêtes HTTP, la définition des routes, la gestion des sessions, la gestion des cookies, etc.
 - Installer dotenv `npm install dotenv'
   - Dotenv est un module qui permet de charger des variables d'environnement depuis un fichier .env.
+  - Par la suite, il sera possible d'accéder aux variables d'environnement via process.env.VARIABLE
 - Creer un dossier config et un fichier .env pour les informations sensibles.
 
 <img        src="./backend/assets/capture001.png"
@@ -58,3 +59,23 @@ alt="Capture du projet MERN"
 width= 80%
 align="center"
 />
+
+- Creer des routes dans le dossier routes et les importer dans le fichier server.js
+  - const userRoutes = require('./routes/user');
+  - app.use('/api/user', userRoutes);
+
+<img src="./backend/assets/capture006.png"
+alt="Capture du projet MERN"
+width= 80%
+align="center"
+/>
+
+- Creer un dossier routes et un fichier user.routes.js
+
+<img src="./backend/assets/capture006.png"
+alt="Capture du projet MERN"
+width= 80%
+align="center"
+/>
+
+- A présent api/user/register est disponible pour créer un nouvel utilisateur.
